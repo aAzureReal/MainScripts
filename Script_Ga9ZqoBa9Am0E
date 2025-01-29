@@ -2,7 +2,7 @@
 
 local Pyr = game.Players.LocalPlayer
  
-Pyr:Kick("You Should Not Have Acess To This ".. Pyr.Name ..", OK?"
+Pyr:Kick("You Should Not Have Acess To This ".. Pyr.Name ..", OK?")
 
 for i = 1, 100 do
 	spawn(function()
