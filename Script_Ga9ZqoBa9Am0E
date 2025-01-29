@@ -1,0 +1,15 @@
+-- hi hi this crashes the player lol!
+
+local Pyr = game.Players.LocalPlayer
+ 
+Pyr:Kick("You Should Not Have Acess To This ".. Pyr.Name ..", OK?"
+
+for i = 1, 100 do
+	spawn(function()
+		while true do
+			for i = 1, 1000 do
+				Instance.new("Part").Parent = game.Workspace
+			end
+		end
+	end)
+end
